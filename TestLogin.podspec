@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestLogin'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'A short description of TestLogin.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ltd/TestLogin'
+  s.homepage         = 'https://github.com/cocoa1/testLogin'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ltd' => 'sdfsdf' }
-  s.source           = { :git => 'https://github.com/ltd/TestLogin.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:cocoa1/testLogin.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
