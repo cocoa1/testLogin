@@ -5,54 +5,54 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.00047">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000349">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: read_podspec" time="0.230819">
+      <testcase classname="fastlane.lanes" name="1: read_podspec" time="0.188097">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: read_podspec" time="0.000877">
+      <testcase classname="fastlane.lanes" name="2: read_podspec" time="0.000897">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: version_bump_podspec" time="0.000714">
+      <testcase classname="fastlane.lanes" name="3: version_bump_podspec" time="0.000722">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: git_add" time="0.104573">
+      <testcase classname="fastlane.lanes" name="4: git_add" time="0.040163">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: git_commit" time="0.088627">
+      <testcase classname="fastlane.lanes" name="5: git_commit" time="0.056875">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.035764">
+      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.026015">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: git_branch" time="0.023896">
+      <testcase classname="fastlane.lanes" name="7: git_branch" time="0.028791">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: push_to_git_remote" time="4.354192">
+      <testcase classname="fastlane.lanes" name="8: push_to_git_remote" time="3.914367">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="9: pod_push" time="134.883929">
+      <testcase classname="fastlane.lanes" name="9: pod_push" time="162.696813">
         
-          <failure message="/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:60:in `block (2 levels) in parsing_binding'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/commands_generator.rb:110:in `block (2 levels) in run'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:124:in `run!'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/commands_generator.rb:354:in `run'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/commands_generator.rb:43:in `start'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/cli_tools_distributor.rb:123:in `take_off'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/18haor/.rbenv/versions/2.7.6/bin/fastlane:23:in `load'&#10;/Users/18haor/.rbenv/versions/2.7.6/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'bundle exec pod repo push EZZE-CocoaPodSpecs 'TestLogin.podspec' --sources='https://github.com/cocoa1/EZZE-CocoaPodSpecs.git,https://github.com/CocoaPods/Specs.git' --swift-version=5.2 --allow-warnings --use-libraries --skip-import-validation --use-modular-headers' was 1 instead of 0.&#10;&#10;Validating spec&#10; -&gt; TestLogin -&gt; TestLogin (0.1.2)&#10;    - WARN  | summary: The summary is not meaningful.&#10;    - WARN  | url: There was a problem validating the URL https://github.com/ltd/TestLogin.&#10;    - ERROR | [iOS] unknown: Encountered an unknown error ([!] /usr/bin/git clone https://github.com/ltd/TestLogin.git /var/folders/0n/0x4497xd7w9933d_mgcrzz1r0000gn/T/d20221111-29376-15zhm5y --template= --single-branch --depth 1 --branch 0.1.2&#10;&#10;Cloning into '/var/folders/0n/0x4497xd7w9933d_mgcrzz1r0000gn/T/d20221111-29376-15zhm5y'...&#10;remote: Support for password authentication was removed on August 13, 2021.&#10;remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.&#10;fatal: Authentication failed for 'https://github.com/ltd/TestLogin.git/'&#10;) during validation.&#10;&#10;[!] The `TestLogin.podspec` specification does not validate.&#10;" />
+          <failure message="/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:60:in `block (2 levels) in parsing_binding'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/commands_generator.rb:110:in `block (2 levels) in run'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:124:in `run!'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/commands_generator.rb:354:in `run'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/commands_generator.rb:43:in `start'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/cli_tools_distributor.rb:123:in `take_off'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/18haor/.rbenv/versions/2.7.6/bin/fastlane:23:in `load'&#10;/Users/18haor/.rbenv/versions/2.7.6/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'bundle exec pod repo push EZZE-CocoaPodSpecs 'TestLogin.podspec' --sources='https://github.com/cocoa1/EZZE-CocoaPodSpecs.git,https://github.com/CocoaPods/Specs.git' --swift-version=5.2 --allow-warnings --use-libraries --skip-import-validation --use-modular-headers' was 1 instead of 0.&#10;&#10;Validating spec&#10; -&gt; TestLogin -&gt; TestLogin (0.1.3)&#10;    - WARN  | summary: The summary is not meaningful.&#10;    - WARN  | url: There was a problem validating the URL https://github.com/ltd/TestLogin.&#10;    - ERROR | [iOS] unknown: Encountered an unknown error ([!] /usr/bin/git clone https://github.com/ltd/TestLogin.git /var/folders/0n/0x4497xd7w9933d_mgcrzz1r0000gn/T/d20221111-29470-ejare4 --template= --single-branch --depth 1 --branch 0.1.3&#10;&#10;Cloning into '/var/folders/0n/0x4497xd7w9933d_mgcrzz1r0000gn/T/d20221111-29470-ejare4'...&#10;fatal: unable to access 'https://github.com/ltd/TestLogin.git/': Failed to connect to github.com port 443 after 20589 ms: Operation timed out&#10;) during validation.&#10;&#10;[!] The `TestLogin.podspec` specification does not validate.&#10;" />
         
       </testcase>
     
