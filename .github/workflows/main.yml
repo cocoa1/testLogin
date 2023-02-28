@@ -1,1 +1,17 @@
-runs-on: self-hosted
+name: scheduled packaging
+# on:
+#   schedule:
+#   - cron: "0 2 * * 1-5"
+
+on:
+  push:
+    branches:[main]
+    
+    
+jobs: 
+    build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    name: Run a one-line script
+    run: echo hello, github action!
