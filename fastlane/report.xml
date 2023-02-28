@@ -5,54 +5,49 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000363">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000387">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: read_podspec" time="0.119712">
+      <testcase classname="fastlane.lanes" name="1: read_podspec" time="0.17123">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: read_podspec" time="0.000732">
+      <testcase classname="fastlane.lanes" name="2: read_podspec" time="0.000934">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: version_bump_podspec" time="0.000717">
+      <testcase classname="fastlane.lanes" name="3: version_bump_podspec" time="0.001036">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: git_add" time="0.030935">
+      <testcase classname="fastlane.lanes" name="4: git_add" time="0.03778">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: git_commit" time="0.054293">
+      <testcase classname="fastlane.lanes" name="5: git_commit" time="0.055599">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.038256">
+      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.04023">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: git_branch" time="0.021155">
+      <testcase classname="fastlane.lanes" name="7: git_branch" time="0.030983">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: push_to_git_remote" time="4.160282">
+      <testcase classname="fastlane.lanes" name="8: push_to_git_remote" time="0.087917">
         
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="9: pod_push" time="56.894574">
-        
-          <failure message="/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:60:in `block (2 levels) in parsing_binding'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/commands_generator.rb:110:in `block (2 levels) in run'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:124:in `run!'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/commands_generator.rb:354:in `run'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/commands_generator.rb:43:in `start'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/fastlane/lib/fastlane/cli_tools_distributor.rb:123:in `take_off'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.210.1/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/18haor/.rbenv/versions/2.7.6/bin/fastlane:23:in `load'&#10;/Users/18haor/.rbenv/versions/2.7.6/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'bundle exec pod repo push EZZE-CocoaPodSpecs 'TestLogin.podspec' --sources='https://github.com/cocoa1/EZZE-CocoaPodSpecs.git,https://github.com/CocoaPods/Specs.git' --swift-version=5.2 --allow-warnings --use-libraries --skip-import-validation --use-modular-headers' was 1 instead of 0.&#10;&#10;Validating spec&#10; -&gt; TestLogin -&gt; TestLogin (0.1.7)&#10;    - WARN  | source: Git SSH URLs will NOT work for people behind firewalls configured to only allow HTTP, therefore HTTPS is preferred.&#10;    - WARN  | summary: The summary is not meaningful.&#10;    - NOTE  | xcodebuild:  note: Using codesigning identity override: -&#10;    - NOTE  | [iOS] xcodebuild:  note: Building targets in dependency order&#10;    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 10.0, but the range of supported deployment target versions is 11.0 to 16.1.99. (in target 'TestLogin' from project 'Pods')&#10;&#10;Updating the `EZZE-CocoaPodSpecs' repo&#10;&#10;Adding the spec to the `EZZE-CocoaPodSpecs' repo&#10; - [Add] TestLogin (0.1.7)&#10;&#10;Pushing the `EZZE-CocoaPodSpecs' repo&#10;[!] /usr/bin/git -C /Users/18haor/.cocoapods/repos/EZZE-CocoaPodSpecs push origin HEAD&#10;&#10;remote: Support for password authentication was removed on August 13, 2021.&#10;remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.&#10;fatal: Authentication failed for 'https://github.com/cocoa1/EZZE-CocoaPodSpecs.git/'&#10;" />
+          <failure message="/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:53:in `block (2 levels) in parsing_binding'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/commands_generator.rb:110:in `block (2 levels) in run'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:124:in `run!'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/commands_generator.rb:354:in `run'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/commands_generator.rb:43:in `start'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/cli_tools_distributor.rb:123:in `take_off'&#10;/Users/18haor/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/18haor/.rbenv/versions/2.7.6/bin/fastlane:23:in `load'&#10;/Users/18haor/.rbenv/versions/2.7.6/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'git push origin HEAD:main --tags' was 128 instead of 0.&#10;ssh: connect to host github.com port 22: Undefined error: 0&#10;fatal: Could not read from remote repository.&#10;&#10;Please make sure you have the correct access rights&#10;and the repository exists.&#10;" />
         
       </testcase>
     
