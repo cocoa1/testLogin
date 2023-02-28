@@ -12,4 +12,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Run a one-line script
-        run: fastlane pub
+        run: /Users/18haor/.rbenv/shims/fastlane pub
