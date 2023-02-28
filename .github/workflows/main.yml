@@ -13,5 +13,5 @@ jobs:
     steps:
       - name: Run a one-line script
         run: |
-        cd /Users/18haor/Desktop/Work/testLogin
-        /Users/18haor/.rbenv/shims/fastlane pub
+         cd /Users/18haor/Desktop/Work/testLogin,
+         /Users/18haor/.rbenv/shims/fastlane pub
