@@ -5,15 +5,11 @@ name: scheduled packaging
 
 on:
   push:
-    branches:[main]
-    
-    
+    branches: [main]
+  workflow_dispatch:
 jobs: 
-    build:
+  build:
     runs-on: self-hosted
-    
     steps:
-    name: Run a one-line script
-    run: echo hello, github action!
-
-
+      - name: Run a one-line script
+        run: echo hello, github action!
