@@ -12,6 +12,5 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Run a one-line script
-      - uses: actions/checkout@v2
-      - run:
+        run:
            fastlane pub
